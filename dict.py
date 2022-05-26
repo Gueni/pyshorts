@@ -1,3 +1,4 @@
+#The methods below could be implemented to merge more than 2 dictionaries at once.
 
 dict1 = {   'key1': 'val1','key2': 'val2','key3': 'val3'}
 dict2 = {   'key4': 'val4','key5': 'val5','key6': 'val6'}

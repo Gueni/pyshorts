@@ -1,10 +1,9 @@
 
-data_set  = [0,6,12,3,88,77,15,17,69]
-target    = 15
+data_set  = [1,2,3,5,6,8]
+target    = 2
 def iterartive_binary_search(data_set,target):
     low  = 0
     high = len(data_set)-1
-
     while (low <= high):
         mid = (low+high)//2
         if target== data_set[mid]:

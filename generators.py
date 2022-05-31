@@ -1,7 +1,7 @@
 
 import sys 
 #using the classical for loop iteration
-var = [i*2 for i in range(10000)]
+var = [i**2 for i in range(10000)]
 #defining the generator method
 def Gen(n):
     for i in range(n):
